@@ -15,7 +15,6 @@ export default function App() {
 
   const handleEdit = (id) => {
     setId(id + 1);
-    console.log(list);
     list.find((list) =>
       list.id === id + 1
         ? (setTitle(list.title), setDiscription(list.discription))
@@ -33,8 +32,6 @@ export default function App() {
     );
     setList(listcopy);
     setOpen(true);
-    // console.log(list);
-    // console.log(Id);
   };
 
   const handleDelete = (id) => {
@@ -52,7 +49,6 @@ export default function App() {
     };
     listcopy.push(obj);
     setList(listcopy);
-    console.log(list);
   };
 
   return (
@@ -112,12 +108,6 @@ export default function App() {
           </div>
         </div>
       </div>
-      {/* form 
-     title 
-     other section 
-     add button
-    */}
-      {/* to do list component */}
     </div>
   );
 }
