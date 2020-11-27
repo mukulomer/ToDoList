@@ -1,0 +1,26 @@
+.container {
+  margin-left: 20px;
+  height: 200px;
+  width: 300px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.title {
+  color: deepskyblue;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.discription {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.buttongroup {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,63 @@
+.App {
+  margin: 0;
+  font-family: sans-serif;
+
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(255, 180, 180, 1) 35%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.header {
+  text-align: center;
+  background: rgb(202, 63, 251);
+  background: radial-gradient(
+    circle,
+    rgba(202, 63, 251, 1) 0%,
+    rgba(70, 202, 252, 0.7539390756302521) 100%
+  );
+}
+.apptitle {
+  color: cyan;
+}
+.titlefirst {
+  color: blue;
+}
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+}
+.containerleft {
+  height: 1000px;
+  width: 700px;
+  border: 1px solid white;
+}
+
+.form {
+  width: 500px;
+  height: 600px;
+  border: 2px solid lawngreen;
+  margin-left: 100px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(180, 180, 255, 1) 35%,
+    rgba(69, 217, 252, 1) 100%
+  );
+}
+
+.listTitle {
+  padding-left: 30px;
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.addButton {
+  margin-top: 70px;
+  margin-left: 30px;
+}
